@@ -229,18 +229,18 @@ return [
             'search' => true,
             'topnav' => true,
         ],
-        [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
-        ],
+        // [
+        //     // 'text'        => 'pages',
+        //     // 'url'         => 'admin/pages',
+        //     // 'icon'        => 'far fa-fw fa-file',
+        //     // 'label'       => 4,
+        //     // 'label_color' => 'success',
+        // ],
         ['header' => 'Menu'],
         [
-            'text' => 'Kelola Buku',
-            'url'  => 'kelola_buku',
-            'icon' => 'fa fa-book',
+            'text' => 'Kelola_Buku',
+            'url'  => 'admin/books',
+            'icon' => 'fas fa-fw fa-book',
             'can'  => 'isAdmin',
         ],
         ['header' => 'account_settings'],
@@ -251,7 +251,7 @@ return [
         ],
         [
             'text' => 'change_password',
-            'url'  => '/profile',
+            'url'  => '/password',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
